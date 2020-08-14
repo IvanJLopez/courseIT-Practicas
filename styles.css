@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Open+Sans:wght@300&display=swap');
+.container {
+    min-height: 100vh;
+    /* Viewport Height */
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper {
+    border: solid 2px;
+    background-color: #FFF;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+}
+
+.login-form {
+    min-width: 350px;
+    padding: 40px;
+}
+
+.header-form {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.header-form a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-form .arrow {
+    font-size: 1.5em;
+}
+
+.body-form {
+    width: auto;
+    padding: 30px;
+}
+
+.body-form .title-form {
+    text-align: left;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.body-form .text-form {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    font-size: .7em;
+}
+
+.input-form input {
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ddd;
+    border: 0px;
+    width: 100%;
+}
+
+.body-form .link-form {
+    display: block;
+    margin-bottom: 30px;
+    text-align: right;
+    text-decoration: none;
+    font-size: .6em;
+    color: black
+}
+
+.body-form .button-form {
+    display: block;
+    text-decoration: none;
+    background: rgb(47, 146, 204);
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: .7em;
+    font-weight: 700;
+    margin-bottom: 35px;
+    transition: background-color .5s;
+}
+
+.button-form:hover {
+    background-color: tomato;
+}
+
+.body-form .separator-form {
+    margin-bottom: 40px;
+}
+
+.body-form .footer-form {
+    text-align: center;
+    font-size: .7em;
+}
+
+.side-wrapper {
+    width: 100%;
+    min-height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.side-wrapper .content-img {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 450px;
+    margin-left: 130px;
+}
+
+.side-wrapper .title-img {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    font-weight: 600;
+    width: 100%;
+}
+
+.side-wrapper .text-img {
+    font-size: .7em;
+    color: white;
+    text-align: left;
+    width: 100%;
+    font-weight: 600;
+}
+
+.icon-footer {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 30px;
+    margin-bottom: 5px;
+}
